@@ -4,28 +4,28 @@
 class Pluggy < Formula
   desc "Single-binary CLI for Minecraft plugin development"
   homepage "https://pluggy.sh"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/pluggy-sh/pluggy/releases/download/v#{version}/pluggy-darwin-arm64"
-      sha256 "43a35f3958714a3d88a37815047f317be115b60a1c99fece2ca63901b3ff15df"
+      sha256 "049995471ce2f6d3a072ca51a2ebcfc2bd0db6b9692ac21286e6c27641b95616"
     end
     on_intel do
       url "https://github.com/pluggy-sh/pluggy/releases/download/v#{version}/pluggy-darwin-amd64"
-      sha256 "c45c82b20b8c6c311ae83912fd9420c4504cf856055adeff9e7552a175988d50"
+      sha256 "3535b83c73eaf30aa08e0a8e4d032b02b8c6dff196986628bd0b59010701ea46"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/pluggy-sh/pluggy/releases/download/v#{version}/pluggy-linux-arm64"
-      sha256 "c1889ecb8534e8cd64a7ece3429adc19bb74a2b66d22069ed276e1967db5d1f6"
+      sha256 "28892aa178c46c6832b2a6268d069713ba510a7e20ffa2ff3882c20aab36804c"
     end
     on_intel do
       url "https://github.com/pluggy-sh/pluggy/releases/download/v#{version}/pluggy-linux-amd64"
-      sha256 "32bd81132ef7a074ca8565c3543ebf4a49d74b86fed7dd81e0c437bc6a29a71a"
+      sha256 "303524c7e31c79fc8651c245bdab4914171533be211663e8d7be43920a14972e"
     end
   end
 
